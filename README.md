@@ -5,6 +5,10 @@ In this repo you can find the files to link the data extracted from the arduino 
 
 Comments on the ino file are in Spanish. 
 
+The package.json contains the dependencies so we need to run npm install: Serialport and Socket.io.
+
+You will need to change the SerialPort according to the one of your Arduino. 
+
 This project is a custom version of combining this other projects:
 
 - Communicating Between an Arduino and a Node.js Server > https://github.com/codeadamca/arduino-to-nodejs
