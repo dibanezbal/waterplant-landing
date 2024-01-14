@@ -9,7 +9,12 @@ The package.json contains the dependencies so we need to run npm install: Serial
 
 You will need to change the SerialPort according to the one of your Arduino.
 
-The index.html file contains also the styling and the javascript triggering the socket.io plugin. 
+The index.html file contains also the styling and the javascript triggering the socket.io plugin.
+
+These are two examples of the data extracted from Arduino. It posts the percentage of the moisture of the soil and the message when it's watering the plant.
+![Ejemplo Humedad](https://github.com/dibanezbal/waterplant-landing/assets/63260075/127096b0-8270-4651-835a-e608c058e454)
+
+![Ejemplo Regando](https://github.com/dibanezbal/waterplant-landing/assets/63260075/e9de474e-7903-47bf-b44b-295bfd251a4b)
 
 This project is a custom version of combining these other projects:
 
